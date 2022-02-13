@@ -1,0 +1,89 @@
+main{
+    display: flex;
+}
+
+main .left
+{
+    width: 20%;
+}
+main .left p
+{
+    background-color: black;
+    color:white;
+    padding:10px;
+    margin:10px;
+    border-radius: 100px;
+}
+main .left p span
+{
+    float: right;
+}
+main .left p.active
+{
+    background-color: white;
+    color:black;
+}
+
+
+main .right
+{
+    width: 80%;
+}
+main .right .filters
+{
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+main .right .filters button.active
+{
+    background-color: black;
+    color:white;
+}
+
+main .right .products
+{
+    height: 75vh;
+    overflow: auto;
+}
+main .right .products .item
+{
+    width: 15%;
+    margin:10px;
+    padding:10px;
+    background-color: white;
+    box-shadow: 0 10px 10px black;
+    display: inline-table;
+    position: relative;
+}
+    main .right .products .item img
+    {
+        width: 100%;
+    }
+    main .right .products .item .tags
+    {
+        position: absolute;
+        top:0;
+        left:0;
+        padding: 10px;
+        background-color: black;
+        color:white;
+    }
+    main .right .products .item .discount
+    {
+        position: absolute;
+        top:50%;
+        right:0;
+        padding: 10px;
+        background-color:yellow;
+    }
+    main .right .products .item .cart-btn
+    {
+        position: absolute;
+        bottom:0;
+        right:0;
+        padding: 10px;
+        background-color: black;
+        color:white;
+    }
+            
